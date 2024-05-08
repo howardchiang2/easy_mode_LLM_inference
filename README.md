@@ -32,6 +32,8 @@ LLAMA_METAL=1 make
         -t 8 \  
         -n 128 \  
         -p 'The first president of the USA was '  
+
+
 -p 表示提示句  
 -temp 温度  
 -top-k top-k sampling  
