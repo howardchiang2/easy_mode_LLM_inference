@@ -32,6 +32,11 @@ LLAMA_METAL=1 make
         -t 8 \  
         -n 128 \  
         -p 'The first president of the USA was '  
+-p 表示提示句  
+-temp 温度  
+-top-k top-k sampling  
+-t 线程的使用情况  
+-i 交互模式
 
 5 结果  
 what is the national flower of the USA? 美国的国花是什么 答：美国没有官方国花，不过美国的州旗上都有各自的州花。是指挥官花，在南方。美国的国花是红花木莲。红花木莲是北美洲热带的多年生灌木植物，原产于墨西哥南部、中美洲和加勒比海诸岛。红花木莲是红花木莲属（木莲属）植物中的一种。它... 问： 国花是什么 答：国花：木棉花 问： 国花是什么花？答：国花  
